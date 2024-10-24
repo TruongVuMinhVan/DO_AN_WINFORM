@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp1
 {
-    public partial class Khach_Hang : Form
+    public partial class frmKhachHang : Form
     {
-        public Khach_Hang()
+        public frmKhachHang()
         {
             InitializeComponent();
+        }
+
+        private void grbQLNV_Enter(object sender, EventArgs e)
+        {
+
         }
     }
 }

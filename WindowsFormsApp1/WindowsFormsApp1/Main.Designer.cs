@@ -134,7 +134,7 @@
             this.đăngXuấtToolStripMenuItem.Size = new System.Drawing.Size(109, 24);
             this.đăngXuấtToolStripMenuItem.Text = "Đăng Xuất";
             // 
-            // Form1
+            // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -144,8 +144,8 @@
             this.Controls.Add(this.pnlThongTinKhachHang);
             this.Controls.Add(this.pnlBoLoc);
             this.Controls.Add(this.menu);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "Main";
+            this.Text = "Chương trình Quản lý bán quần áo";
             this.menu.ResumeLayout(false);
             this.menu.PerformLayout();
             this.ResumeLayout(false);

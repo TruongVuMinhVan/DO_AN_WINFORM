@@ -86,7 +86,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(610, 188);
+            this.ClientSize = new System.Drawing.Size(607, 210);
             this.Controls.Add(this.lblQLKhachhang);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.textBox1);
