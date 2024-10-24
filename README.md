@@ -5,3 +5,5 @@
 3.git checkout <nhánh>
 
 4.git pull origin <nhánh>
+
+5. Nhat NGU
