@@ -126,7 +126,7 @@
             this.grbQLNV.Controls.Add(this.lblSDT);
             this.grbQLNV.Location = new System.Drawing.Point(12, 60);
             this.grbQLNV.Name = "grbQLNV";
-            this.grbQLNV.Size = new System.Drawing.Size(876, 147);
+            this.grbQLNV.Size = new System.Drawing.Size(1074, 147);
             this.grbQLNV.TabIndex = 26;
             this.grbQLNV.TabStop = false;
             // 
@@ -222,9 +222,9 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.HotTrack;
             this.label1.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.label1.Location = new System.Drawing.Point(-4, 1);
+            this.label1.Location = new System.Drawing.Point(-6, 1);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(923, 56);
+            this.label1.Size = new System.Drawing.Size(1092, 56);
             this.label1.TabIndex = 30;
             this.label1.Text = "Danh Sách Nhân Viên";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -240,11 +240,11 @@
             this.clmDiachi,
             this.clmSDT,
             this.clmNgaysinh});
-            this.dgv.Location = new System.Drawing.Point(12, 213);
+            this.dgv.Location = new System.Drawing.Point(2, 213);
             this.dgv.Name = "dgv";
             this.dgv.RowHeadersWidth = 51;
             this.dgv.RowTemplate.Height = 24;
-            this.dgv.Size = new System.Drawing.Size(873, 274);
+            this.dgv.Size = new System.Drawing.Size(951, 276);
             this.dgv.TabIndex = 31;
             // 
             // clmMaNV
@@ -286,7 +286,7 @@
             // btnThemNhanVien
             // 
             this.btnThemNhanVien.ImageKey = "(none)";
-            this.btnThemNhanVien.Location = new System.Drawing.Point(35, 493);
+            this.btnThemNhanVien.Location = new System.Drawing.Point(35, 531);
             this.btnThemNhanVien.Name = "btnThemNhanVien";
             this.btnThemNhanVien.Size = new System.Drawing.Size(100, 45);
             this.btnThemNhanVien.TabIndex = 32;
@@ -295,7 +295,7 @@
             // 
             // btnXoaNhanVien
             // 
-            this.btnXoaNhanVien.Location = new System.Drawing.Point(195, 495);
+            this.btnXoaNhanVien.Location = new System.Drawing.Point(195, 533);
             this.btnXoaNhanVien.Name = "btnXoaNhanVien";
             this.btnXoaNhanVien.Size = new System.Drawing.Size(103, 43);
             this.btnXoaNhanVien.TabIndex = 33;
@@ -304,7 +304,7 @@
             // 
             // btnSuaNhanVien
             // 
-            this.btnSuaNhanVien.Location = new System.Drawing.Point(367, 495);
+            this.btnSuaNhanVien.Location = new System.Drawing.Point(367, 533);
             this.btnSuaNhanVien.Name = "btnSuaNhanVien";
             this.btnSuaNhanVien.Size = new System.Drawing.Size(98, 43);
             this.btnSuaNhanVien.TabIndex = 34;
@@ -313,7 +313,7 @@
             // 
             // btnLuu
             // 
-            this.btnLuu.Location = new System.Drawing.Point(644, 501);
+            this.btnLuu.Location = new System.Drawing.Point(644, 533);
             this.btnLuu.Name = "btnLuu";
             this.btnLuu.Size = new System.Drawing.Size(107, 43);
             this.btnLuu.TabIndex = 35;
@@ -322,7 +322,7 @@
             // 
             // btnDong
             // 
-            this.btnDong.Location = new System.Drawing.Point(767, 501);
+            this.btnDong.Location = new System.Drawing.Point(807, 533);
             this.btnDong.Name = "btnDong";
             this.btnDong.Size = new System.Drawing.Size(118, 43);
             this.btnDong.TabIndex = 37;
@@ -334,7 +334,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.ClientSize = new System.Drawing.Size(911, 556);
+            this.ClientSize = new System.Drawing.Size(949, 679);
             this.Controls.Add(this.btnDong);
             this.Controls.Add(this.btnLuu);
             this.Controls.Add(this.btnSuaNhanVien);
@@ -346,6 +346,7 @@
             this.ForeColor = System.Drawing.Color.Black;
             this.Name = "frmQuanLyNhanVien";
             this.Text = "Quản Lý Nhân Viên";
+            this.Load += new System.EventHandler(this.frmQuanLyNhanVien_Load);
             this.grbQLNV.ResumeLayout(false);
             this.grbQLNV.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv)).EndInit();

@@ -15,16 +15,10 @@ namespace WindowsFormsApp1
         public San_Pham()
         {
             InitializeComponent();
+            this.TopLevel = false; //hoạt động trong panel
+            this.FormBorderStyle = FormBorderStyle.None;// ẩn viền
+            this.Dock = DockStyle.Fill;
         }
 
-        private void lblQLSanpham_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
     }
 }

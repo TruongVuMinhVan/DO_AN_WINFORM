@@ -93,7 +93,7 @@
             this.btnLammoi.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
             this.btnLammoi.Location = new System.Drawing.Point(8, 44);
             this.btnLammoi.Name = "btnLammoi";
-            this.btnLammoi.Size = new System.Drawing.Size(193, 92);
+            this.btnLammoi.Size = new System.Drawing.Size(141, 92);
             this.btnLammoi.TabIndex = 34;
             this.btnLammoi.Text = "Làm mới";
             this.btnLammoi.UseVisualStyleBackColor = true;
@@ -103,7 +103,7 @@
             this.btnTimkiemSanPham.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnTimkiemSanPham.Location = new System.Drawing.Point(784, 44);
             this.btnTimkiemSanPham.Name = "btnTimkiemSanPham";
-            this.btnTimkiemSanPham.Size = new System.Drawing.Size(192, 92);
+            this.btnTimkiemSanPham.Size = new System.Drawing.Size(126, 92);
             this.btnTimkiemSanPham.TabIndex = 35;
             this.btnTimkiemSanPham.Text = "Tìm kiếm";
             this.btnTimkiemSanPham.UseVisualStyleBackColor = true;
@@ -115,7 +115,7 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(968, 286);
+            this.dataGridView1.Size = new System.Drawing.Size(940, 458);
             this.dataGridView1.TabIndex = 36;
             // 
             // textBox1
@@ -140,7 +140,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.ClientSize = new System.Drawing.Size(989, 471);
+            this.ClientSize = new System.Drawing.Size(949, 679);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.dataGridView1);

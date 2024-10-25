@@ -57,7 +57,7 @@
             this.lblQLKhachhang.ForeColor = System.Drawing.SystemColors.Highlight;
             this.lblQLKhachhang.Location = new System.Drawing.Point(1, -1);
             this.lblQLKhachhang.Name = "lblQLKhachhang";
-            this.lblQLKhachhang.Size = new System.Drawing.Size(799, 58);
+            this.lblQLKhachhang.Size = new System.Drawing.Size(952, 58);
             this.lblQLKhachhang.TabIndex = 30;
             this.lblQLKhachhang.Text = "Quản Lý Khách Hàng";
             this.lblQLKhachhang.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -79,7 +79,7 @@
             // 
             // txtSDT
             // 
-            this.txtSDT.Location = new System.Drawing.Point(562, 60);
+            this.txtSDT.Location = new System.Drawing.Point(607, 60);
             this.txtSDT.Name = "txtSDT";
             this.txtSDT.Size = new System.Drawing.Size(223, 22);
             this.txtSDT.TabIndex = 22;
@@ -91,7 +91,7 @@
             this.dgvQLKH.Name = "dgvQLKH";
             this.dgvQLKH.RowHeadersWidth = 51;
             this.dgvQLKH.RowTemplate.Height = 24;
-            this.dgvQLKH.Size = new System.Drawing.Size(793, 241);
+            this.dgvQLKH.Size = new System.Drawing.Size(946, 241);
             this.dgvQLKH.TabIndex = 32;
             // 
             // grbQLNV
@@ -106,7 +106,7 @@
             this.grbQLNV.Controls.Add(this.label2);
             this.grbQLNV.Location = new System.Drawing.Point(7, 105);
             this.grbQLNV.Name = "grbQLNV";
-            this.grbQLNV.Size = new System.Drawing.Size(793, 101);
+            this.grbQLNV.Size = new System.Drawing.Size(946, 101);
             this.grbQLNV.TabIndex = 31;
             this.grbQLNV.TabStop = false;
             this.grbQLNV.Enter += new System.EventHandler(this.grbQLNV_Enter);
@@ -116,7 +116,7 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.label5.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.label5.Location = new System.Drawing.Point(429, 24);
+            this.label5.Location = new System.Drawing.Point(474, 24);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(71, 20);
             this.label5.TabIndex = 26;
@@ -125,7 +125,7 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(562, 20);
+            this.textBox1.Location = new System.Drawing.Point(607, 20);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(223, 22);
             this.textBox1.TabIndex = 27;
@@ -160,7 +160,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.label2.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.label2.Location = new System.Drawing.Point(429, 64);
+            this.label2.Location = new System.Drawing.Point(474, 64);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(111, 20);
             this.label2.TabIndex = 20;
@@ -169,7 +169,7 @@
             // 
             // btnDong
             // 
-            this.btnDong.Location = new System.Drawing.Point(701, 463);
+            this.btnDong.Location = new System.Drawing.Point(826, 509);
             this.btnDong.Name = "btnDong";
             this.btnDong.Size = new System.Drawing.Size(94, 25);
             this.btnDong.TabIndex = 42;
@@ -178,7 +178,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(576, 463);
+            this.button1.Location = new System.Drawing.Point(701, 509);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(83, 25);
             this.button1.TabIndex = 41;
@@ -188,7 +188,7 @@
             // 
             // btnSuaNhanVien
             // 
-            this.btnSuaNhanVien.Location = new System.Drawing.Point(319, 463);
+            this.btnSuaNhanVien.Location = new System.Drawing.Point(321, 509);
             this.btnSuaNhanVien.Name = "btnSuaNhanVien";
             this.btnSuaNhanVien.Size = new System.Drawing.Size(74, 25);
             this.btnSuaNhanVien.TabIndex = 40;
@@ -198,7 +198,7 @@
             // 
             // btnXoaNhanVien
             // 
-            this.btnXoaNhanVien.Location = new System.Drawing.Point(168, 463);
+            this.btnXoaNhanVien.Location = new System.Drawing.Point(170, 509);
             this.btnXoaNhanVien.Name = "btnXoaNhanVien";
             this.btnXoaNhanVien.Size = new System.Drawing.Size(79, 25);
             this.btnXoaNhanVien.TabIndex = 39;
@@ -209,7 +209,7 @@
             // btnThemNhanVien
             // 
             this.btnThemNhanVien.ImageKey = "(none)";
-            this.btnThemNhanVien.Location = new System.Drawing.Point(26, 461);
+            this.btnThemNhanVien.Location = new System.Drawing.Point(28, 507);
             this.btnThemNhanVien.Name = "btnThemNhanVien";
             this.btnThemNhanVien.Size = new System.Drawing.Size(76, 27);
             this.btnThemNhanVien.TabIndex = 38;
@@ -220,7 +220,7 @@
             // textBox2
             // 
             this.textBox2.ForeColor = System.Drawing.SystemColors.ScrollBar;
-            this.textBox2.Location = new System.Drawing.Point(563, 76);
+            this.textBox2.Location = new System.Drawing.Point(608, 77);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(229, 22);
             this.textBox2.TabIndex = 43;
@@ -229,7 +229,7 @@
             // btnTimKhachHang
             // 
             this.btnTimKhachHang.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.btnTimKhachHang.Location = new System.Drawing.Point(482, 76);
+            this.btnTimKhachHang.Location = new System.Drawing.Point(517, 77);
             this.btnTimKhachHang.Name = "btnTimKhachHang";
             this.btnTimKhachHang.Size = new System.Drawing.Size(75, 23);
             this.btnTimKhachHang.TabIndex = 44;
@@ -241,7 +241,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.ClientSize = new System.Drawing.Size(807, 500);
+            this.ClientSize = new System.Drawing.Size(949, 679);
             this.Controls.Add(this.btnTimKhachHang);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.btnDong);
