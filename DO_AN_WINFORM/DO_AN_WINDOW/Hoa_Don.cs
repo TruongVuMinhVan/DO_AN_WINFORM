@@ -15,6 +15,9 @@ namespace WindowsFormsApp1
         public Hoa_Don()
         {
             InitializeComponent();
+            this.TopLevel =false;
+            this.Dock = DockStyle.Fill;
+            this.ShowInTaskbar = false;
         }
 
         private void Thong_tin_hoa_don_Load(object sender, EventArgs e)

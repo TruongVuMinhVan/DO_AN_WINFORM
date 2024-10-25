@@ -52,7 +52,7 @@
             this.lblThongkebanhang.ForeColor = System.Drawing.SystemColors.Highlight;
             this.lblThongkebanhang.Location = new System.Drawing.Point(2, 9);
             this.lblThongkebanhang.Name = "lblThongkebanhang";
-            this.lblThongkebanhang.Size = new System.Drawing.Size(805, 86);
+            this.lblThongkebanhang.Size = new System.Drawing.Size(947, 86);
             this.lblThongkebanhang.TabIndex = 23;
             this.lblThongkebanhang.Text = "Thống Kê Bán Hàng";
             this.lblThongkebanhang.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -69,34 +69,38 @@
             this.grbThongKe.Controls.Add(this.lblketthuc);
             this.grbThongKe.Location = new System.Drawing.Point(12, 108);
             this.grbThongKe.Name = "grbThongKe";
-            this.grbThongKe.Size = new System.Drawing.Size(389, 312);
+            this.grbThongKe.Size = new System.Drawing.Size(496, 312);
             this.grbThongKe.TabIndex = 27;
             this.grbThongKe.TabStop = false;
             // 
             // dtpKetthuc
             // 
+            this.dtpKetthuc.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.dtpKetthuc.Location = new System.Drawing.Point(153, 107);
             this.dtpKetthuc.Name = "dtpKetthuc";
-            this.dtpKetthuc.Size = new System.Drawing.Size(200, 22);
+            this.dtpKetthuc.Size = new System.Drawing.Size(200, 27);
             this.dtpKetthuc.TabIndex = 33;
             // 
             // dtpBatdau
             // 
+            this.dtpBatdau.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.dtpBatdau.Location = new System.Drawing.Point(153, 71);
             this.dtpBatdau.Name = "dtpBatdau";
-            this.dtpBatdau.Size = new System.Drawing.Size(200, 22);
+            this.dtpBatdau.Size = new System.Drawing.Size(200, 27);
             this.dtpBatdau.TabIndex = 32;
             // 
             // cmbLoaiThongKe
             // 
+            this.cmbLoaiThongKe.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.cmbLoaiThongKe.FormattingEnabled = true;
             this.cmbLoaiThongKe.Location = new System.Drawing.Point(153, 27);
             this.cmbLoaiThongKe.Name = "cmbLoaiThongKe";
-            this.cmbLoaiThongKe.Size = new System.Drawing.Size(200, 24);
+            this.cmbLoaiThongKe.Size = new System.Drawing.Size(200, 28);
             this.cmbLoaiThongKe.TabIndex = 31;
             // 
             // btnXuatBaoCao
             // 
+            this.btnXuatBaoCao.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.btnXuatBaoCao.Location = new System.Drawing.Point(225, 177);
             this.btnXuatBaoCao.Name = "btnXuatBaoCao";
             this.btnXuatBaoCao.Size = new System.Drawing.Size(128, 30);
@@ -106,6 +110,7 @@
             // 
             // btnLoc
             // 
+            this.btnLoc.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.btnLoc.Location = new System.Drawing.Point(23, 177);
             this.btnLoc.Name = "btnLoc";
             this.btnLoc.Size = new System.Drawing.Size(128, 30);
@@ -116,7 +121,7 @@
             // lblLoaiiTK
             // 
             this.lblLoaiiTK.AutoSize = true;
-            this.lblLoaiiTK.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.lblLoaiiTK.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.lblLoaiiTK.ForeColor = System.Drawing.SystemColors.Highlight;
             this.lblLoaiiTK.Location = new System.Drawing.Point(19, 31);
             this.lblLoaiiTK.Name = "lblLoaiiTK";
@@ -128,7 +133,7 @@
             // lblBatdau
             // 
             this.lblBatdau.AutoSize = true;
-            this.lblBatdau.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.lblBatdau.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.lblBatdau.ForeColor = System.Drawing.SystemColors.Highlight;
             this.lblBatdau.Location = new System.Drawing.Point(19, 73);
             this.lblBatdau.Name = "lblBatdau";
@@ -140,7 +145,7 @@
             // lblketthuc
             // 
             this.lblketthuc.AutoSize = true;
-            this.lblketthuc.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.lblketthuc.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.lblketthuc.ForeColor = System.Drawing.SystemColors.Highlight;
             this.lblketthuc.Location = new System.Drawing.Point(19, 109);
             this.lblketthuc.Name = "lblketthuc";
@@ -152,29 +157,31 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(407, 108);
+            this.dataGridView1.Location = new System.Drawing.Point(514, 108);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(381, 312);
+            this.dataGridView1.Size = new System.Drawing.Size(423, 312);
             this.dataGridView1.TabIndex = 28;
             // 
             // lblTongdoanhthu
             // 
             this.lblTongdoanhthu.AutoSize = true;
+            this.lblTongdoanhthu.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.lblTongdoanhthu.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.lblTongdoanhthu.Location = new System.Drawing.Point(405, 447);
+            this.lblTongdoanhthu.Location = new System.Drawing.Point(542, 438);
             this.lblTongdoanhthu.Name = "lblTongdoanhthu";
-            this.lblTongdoanhthu.Size = new System.Drawing.Size(103, 16);
+            this.lblTongdoanhthu.Size = new System.Drawing.Size(129, 20);
             this.lblTongdoanhthu.TabIndex = 29;
             this.lblTongdoanhthu.Text = "Tổng doanh thu:";
             // 
             // lblTong
             // 
             this.lblTong.AutoSize = true;
-            this.lblTong.Location = new System.Drawing.Point(512, 447);
+            this.lblTong.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.lblTong.Location = new System.Drawing.Point(677, 438);
             this.lblTong.Name = "lblTong";
-            this.lblTong.Size = new System.Drawing.Size(14, 16);
+            this.lblTong.Size = new System.Drawing.Size(18, 20);
             this.lblTong.TabIndex = 30;
             this.lblTong.Text = "0";
             // 
@@ -183,7 +190,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.ClientSize = new System.Drawing.Size(800, 478);
+            this.ClientSize = new System.Drawing.Size(949, 679);
             this.Controls.Add(this.lblTong);
             this.Controls.Add(this.lblTongdoanhthu);
             this.Controls.Add(this.dataGridView1);
@@ -191,6 +198,7 @@
             this.Controls.Add(this.lblThongkebanhang);
             this.Name = "Thong_Ke";
             this.Text = "Thong_Ke";
+            this.Load += new System.EventHandler(this.Thong_Ke_Load);
             this.grbThongKe.ResumeLayout(false);
             this.grbThongKe.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

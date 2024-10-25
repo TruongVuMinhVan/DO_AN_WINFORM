@@ -15,6 +15,9 @@ namespace WindowsFormsApp1
         public frmQuanLyNhanVien()
         {
             InitializeComponent();
+            this.TopLevel = false; //hoạt động trong panel
+            this.FormBorderStyle = FormBorderStyle.None;// ẩn viền
+            this.Dock = DockStyle.Fill;
         }
 
         private void label2_Click(object sender, EventArgs e)
@@ -48,6 +51,11 @@ namespace WindowsFormsApp1
         }
 
         private void button5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void frmQuanLyNhanVien_Load(object sender, EventArgs e)
         {
 
         }

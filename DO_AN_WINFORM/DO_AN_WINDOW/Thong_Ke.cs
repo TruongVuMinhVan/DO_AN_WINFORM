@@ -15,8 +15,14 @@ namespace WindowsFormsApp1
         public Thong_Ke()
         {
             InitializeComponent();
+            this.TopLevel = false; //hoạt động trong panel
+            this.FormBorderStyle = FormBorderStyle.None;// ẩn viền
+            this.Dock = DockStyle.Fill;
         }
 
-        
+        private void Thong_Ke_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

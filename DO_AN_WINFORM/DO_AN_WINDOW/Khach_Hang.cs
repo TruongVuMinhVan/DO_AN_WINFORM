@@ -15,6 +15,9 @@ namespace WindowsFormsApp1
         public frmKhachHang()
         {
             InitializeComponent();
+            this.TopLevel = false;
+            this.Dock = DockStyle.Fill;
+            this.FormBorderStyle = FormBorderStyle.None;
         }
 
         private void grbQLNV_Enter(object sender, EventArgs e)
