@@ -1,0 +1,182 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ADMIN\\Downloads\\DO_AN_WINFORM\\DO_AN_WINFORM\\DO_AN_WINDOW\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{38AAC674-14B6-436D-A230-A6A7331E8268}|Do_an_window.csproj|C:\\Users\\ADMIN\\Downloads\\DO_AN_WINFORM\\DO_AN_WINFORM\\DO_AN_WINDOW\\tim_kiem_san_pham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{38AAC674-14B6-436D-A230-A6A7331E8268}|Do_an_window.csproj|solutionrelative:tim_kiem_san_pham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38AAC674-14B6-436D-A230-A6A7331E8268}|Do_an_window.csproj|C:\\Users\\ADMIN\\Downloads\\DO_AN_WINFORM\\DO_AN_WINFORM\\DO_AN_WINDOW\\san_pham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{38AAC674-14B6-436D-A230-A6A7331E8268}|Do_an_window.csproj|solutionrelative:san_pham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38AAC674-14B6-436D-A230-A6A7331E8268}|Do_an_window.csproj|C:\\Users\\ADMIN\\Downloads\\DO_AN_WINFORM\\DO_AN_WINFORM\\DO_AN_WINDOW\\thong_ke.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{38AAC674-14B6-436D-A230-A6A7331E8268}|Do_an_window.csproj|solutionrelative:thong_ke.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38AAC674-14B6-436D-A230-A6A7331E8268}|Do_an_window.csproj|C:\\Users\\ADMIN\\Downloads\\DO_AN_WINFORM\\DO_AN_WINFORM\\DO_AN_WINDOW\\quan_ly_nhan_vien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{38AAC674-14B6-436D-A230-A6A7331E8268}|Do_an_window.csproj|solutionrelative:quan_ly_nhan_vien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38AAC674-14B6-436D-A230-A6A7331E8268}|Do_an_window.csproj|C:\\Users\\ADMIN\\Downloads\\DO_AN_WINFORM\\DO_AN_WINFORM\\DO_AN_WINDOW\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{38AAC674-14B6-436D-A230-A6A7331E8268}|Do_an_window.csproj|solutionrelative:main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38AAC674-14B6-436D-A230-A6A7331E8268}|Do_an_window.csproj|C:\\Users\\ADMIN\\Downloads\\DO_AN_WINFORM\\DO_AN_WINFORM\\DO_AN_WINDOW\\hoa_don.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{38AAC674-14B6-436D-A230-A6A7331E8268}|Do_an_window.csproj|solutionrelative:hoa_don.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38AAC674-14B6-436D-A230-A6A7331E8268}|Do_an_window.csproj|c:\\users\\admin\\downloads\\do_an_winform\\do_an_winform\\do_an_window\\khach_hang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{38AAC674-14B6-436D-A230-A6A7331E8268}|Do_an_window.csproj|solutionrelative:khach_hang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38AAC674-14B6-436D-A230-A6A7331E8268}|Do_an_window.csproj|C:\\Users\\ADMIN\\Downloads\\DO_AN_WINFORM\\DO_AN_WINFORM\\DO_AN_WINDOW\\dang_nhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{38AAC674-14B6-436D-A230-A6A7331E8268}|Do_an_window.csproj|solutionrelative:dang_nhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38AAC674-14B6-436D-A230-A6A7331E8268}|Do_an_window.csproj|C:\\Users\\ADMIN\\Downloads\\DO_AN_WINFORM\\DO_AN_WINFORM\\DO_AN_WINDOW\\khach_hang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38AAC674-14B6-436D-A230-A6A7331E8268}|Do_an_window.csproj|solutionrelative:khach_hang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38AAC674-14B6-436D-A230-A6A7331E8268}|Do_an_window.csproj|C:\\Users\\ADMIN\\Downloads\\DO_AN_WINFORM\\DO_AN_WINFORM\\DO_AN_WINDOW\\hoa_don.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38AAC674-14B6-436D-A230-A6A7331E8268}|Do_an_window.csproj|solutionrelative:hoa_don.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Khach_Hang.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\DO_AN_WINFORM\\DO_AN_WINFORM\\DO_AN_WINDOW\\Khach_Hang.cs",
+              "RelativeDocumentMoniker": "Khach_Hang.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\DO_AN_WINFORM\\DO_AN_WINFORM\\DO_AN_WINDOW\\Khach_Hang.cs",
+              "RelativeToolTip": "Khach_Hang.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAUwBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T04:21:29.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Tim_Kiem_San_Pham.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\DO_AN_WINFORM\\DO_AN_WINFORM\\DO_AN_WINDOW\\Tim_Kiem_San_Pham.cs",
+              "RelativeDocumentMoniker": "Tim_Kiem_San_Pham.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\DO_AN_WINFORM\\DO_AN_WINFORM\\DO_AN_WINDOW\\Tim_Kiem_San_Pham.cs [Design]",
+              "RelativeToolTip": "Tim_Kiem_San_Pham.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T03:20:38.529Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Hoa_Don.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\DO_AN_WINFORM\\DO_AN_WINFORM\\DO_AN_WINDOW\\Hoa_Don.cs",
+              "RelativeDocumentMoniker": "Hoa_Don.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\DO_AN_WINFORM\\DO_AN_WINFORM\\DO_AN_WINDOW\\Hoa_Don.cs",
+              "RelativeToolTip": "Hoa_Don.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAhwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T02:47:12.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Hoa_Don.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\DO_AN_WINFORM\\DO_AN_WINFORM\\DO_AN_WINDOW\\Hoa_Don.cs",
+              "RelativeDocumentMoniker": "Hoa_Don.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\DO_AN_WINFORM\\DO_AN_WINFORM\\DO_AN_WINDOW\\Hoa_Don.cs [Design]",
+              "RelativeToolTip": "Hoa_Don.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T00:35:06.265Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Thong_Ke.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\DO_AN_WINFORM\\DO_AN_WINFORM\\DO_AN_WINDOW\\Thong_Ke.cs",
+              "RelativeDocumentMoniker": "Thong_Ke.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\DO_AN_WINFORM\\DO_AN_WINFORM\\DO_AN_WINDOW\\Thong_Ke.cs [Design]",
+              "RelativeToolTip": "Thong_Ke.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T00:35:04.764Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "San_Pham.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\DO_AN_WINFORM\\DO_AN_WINFORM\\DO_AN_WINDOW\\San_Pham.cs",
+              "RelativeDocumentMoniker": "San_Pham.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\DO_AN_WINFORM\\DO_AN_WINFORM\\DO_AN_WINDOW\\San_Pham.cs [Design]",
+              "RelativeToolTip": "San_Pham.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T00:35:02.969Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Quan_Ly_Nhan_Vien.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\DO_AN_WINFORM\\DO_AN_WINFORM\\DO_AN_WINDOW\\Quan_Ly_Nhan_Vien.cs",
+              "RelativeDocumentMoniker": "Quan_Ly_Nhan_Vien.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\DO_AN_WINFORM\\DO_AN_WINFORM\\DO_AN_WINDOW\\Quan_Ly_Nhan_Vien.cs [Design]",
+              "RelativeToolTip": "Quan_Ly_Nhan_Vien.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T00:35:01.479Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Main.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\DO_AN_WINFORM\\DO_AN_WINFORM\\DO_AN_WINDOW\\Main.cs",
+              "RelativeDocumentMoniker": "Main.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\DO_AN_WINFORM\\DO_AN_WINFORM\\DO_AN_WINDOW\\Main.cs [Design]",
+              "RelativeToolTip": "Main.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T00:34:55.229Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Khach_Hang.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\DO_AN_WINFORM\\DO_AN_WINFORM\\DO_AN_WINDOW\\Khach_Hang.cs",
+              "RelativeDocumentMoniker": "Khach_Hang.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\DO_AN_WINFORM\\DO_AN_WINFORM\\DO_AN_WINDOW\\Khach_Hang.cs [Design]",
+              "RelativeToolTip": "Khach_Hang.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T00:34:53.381Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Dang_nhap.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\DO_AN_WINFORM\\DO_AN_WINFORM\\DO_AN_WINDOW\\Dang_nhap.cs",
+              "RelativeDocumentMoniker": "Dang_nhap.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\DO_AN_WINFORM\\DO_AN_WINFORM\\DO_AN_WINDOW\\Dang_nhap.cs [Design]",
+              "RelativeToolTip": "Dang_nhap.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T00:34:51.14Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
