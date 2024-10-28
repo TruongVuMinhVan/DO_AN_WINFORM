@@ -81,7 +81,7 @@
     <Compile Include="SQL\DANH_MUC.cs" />
     <Compile Include="SQL\HOA_DON.cs" />
     <Compile Include="SQL\KHACH_HANG.cs" />
-    <Compile Include="SQL\Model.cs" />
+    <Compile Include="SQL\Model1.cs" />
     <Compile Include="SQL\NHAN_VIEN.cs" />
     <Compile Include="SQL\SAN_PHAM.cs" />
     <Compile Include="Thong_Ke.cs">

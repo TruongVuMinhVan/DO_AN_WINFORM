@@ -18,6 +18,9 @@ namespace WindowsFormsApp1.SQL
         [StringLength(10)]
         public string hd_id { get; set; }
 
+        [Column(TypeName = "money")]
+        public decimal? DonGia { get; set; }
+
         public int? soluong { get; set; }
 
         public virtual HOA_DON HOA_DON { get; set; }

@@ -34,6 +34,9 @@ namespace WindowsFormsApp1.SQL
         [StringLength(10)]
         public string kh_id { get; set; }
 
+        [Column(TypeName = "money")]
+        public decimal? TienKhachTra { get; set; }
+
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<CHI_TIET_HOA_DON> CHI_TIET_HOA_DON { get; set; }
 
