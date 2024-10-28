@@ -71,6 +71,11 @@
     <Compile Include="Khach_Hang.Designer.cs">
       <DependentUpon>Khach_Hang.cs</DependentUpon>
     </Compile>
+    <Compile Include="QL_BANHANGDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QL_BANHANGDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Quan_Ly_Nhan_Vien.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -128,6 +133,7 @@
     <Compile Include="Xuat_Hoa_Don.Designer.cs">
       <DependentUpon>Xuat_Hoa_Don.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="In_Hoa_Don.rdlc" />
     <EmbeddedResource Include="Khach_Hang.resx">
       <DependentUpon>Khach_Hang.cs</DependentUpon>
     </EmbeddedResource>
@@ -174,6 +180,17 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="QL_BANHANGDataSet.xsc">
+      <DependentUpon>QL_BANHANGDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="QL_BANHANGDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QL_BANHANGDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QL_BANHANGDataSet.xss">
+      <DependentUpon>QL_BANHANGDataSet.xsd</DependentUpon>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

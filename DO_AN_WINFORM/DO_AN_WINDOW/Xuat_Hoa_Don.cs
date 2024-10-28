@@ -20,7 +20,8 @@ namespace WindowsFormsApp1
         private void Xuat_Hoa_Don_Load(object sender, EventArgs e)
         {
 
-            this.reportViewer1.RefreshReport();
+            this.rvInHoaDon.RefreshReport();
         }
+
     }
 }
