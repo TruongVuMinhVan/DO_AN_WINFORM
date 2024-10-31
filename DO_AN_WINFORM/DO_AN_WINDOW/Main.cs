@@ -37,7 +37,7 @@ namespace WindowsFormsApp1
             form.FormBorderStyle = FormBorderStyle.None; // Bỏ viền
             form.Dock = DockStyle.Fill; // Form sẽ chiếm toàn bộ panel
 
-            // Thêm form vào panel và hiển thị
+            
             panelcontent.Controls.Add(form);
             form.Show();
         }

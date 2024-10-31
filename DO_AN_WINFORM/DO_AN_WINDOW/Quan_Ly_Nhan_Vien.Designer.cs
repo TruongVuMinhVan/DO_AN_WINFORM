@@ -31,19 +31,19 @@
             this.txtTenNV = new System.Windows.Forms.TextBox();
             this.lblSDT = new System.Windows.Forms.Label();
             this.lblTenKhachHang = new System.Windows.Forms.Label();
-            this.txtQLNV = new System.Windows.Forms.TextBox();
+            this.txtIDNV = new System.Windows.Forms.TextBox();
             this.lblMaNV = new System.Windows.Forms.Label();
             this.grbQLNV = new System.Windows.Forms.GroupBox();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.rdbNu = new System.Windows.Forms.RadioButton();
+            this.rdbNam = new System.Windows.Forms.RadioButton();
+            this.mtbSDT = new System.Windows.Forms.MaskedTextBox();
+            this.dtpNgaysinh = new System.Windows.Forms.DateTimePicker();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtDC = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.dgv = new System.Windows.Forms.DataGridView();
+            this.dgvQL_NV = new System.Windows.Forms.DataGridView();
             this.clmMaNV = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.clmTenNV = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.clmGioitinh = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -56,7 +56,7 @@
             this.btnLuu = new System.Windows.Forms.Button();
             this.btnDong = new System.Windows.Forms.Button();
             this.grbQLNV.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgv)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvQL_NV)).BeginInit();
             this.SuspendLayout();
             // 
             // txtTenNV
@@ -90,12 +90,12 @@
             this.lblTenKhachHang.Text = "Tên nhân viên:";
             this.lblTenKhachHang.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // txtQLNV
+            // txtIDNV
             // 
-            this.txtQLNV.Location = new System.Drawing.Point(138, 27);
-            this.txtQLNV.Name = "txtQLNV";
-            this.txtQLNV.Size = new System.Drawing.Size(223, 22);
-            this.txtQLNV.TabIndex = 24;
+            this.txtIDNV.Location = new System.Drawing.Point(138, 27);
+            this.txtIDNV.Name = "txtIDNV";
+            this.txtIDNV.Size = new System.Drawing.Size(223, 22);
+            this.txtIDNV.TabIndex = 24;
             // 
             // lblMaNV
             // 
@@ -111,18 +111,18 @@
             // 
             // grbQLNV
             // 
-            this.grbQLNV.Controls.Add(this.radioButton2);
-            this.grbQLNV.Controls.Add(this.radioButton1);
-            this.grbQLNV.Controls.Add(this.maskedTextBox1);
-            this.grbQLNV.Controls.Add(this.dateTimePicker1);
+            this.grbQLNV.Controls.Add(this.rdbNu);
+            this.grbQLNV.Controls.Add(this.rdbNam);
+            this.grbQLNV.Controls.Add(this.mtbSDT);
+            this.grbQLNV.Controls.Add(this.dtpNgaysinh);
             this.grbQLNV.Controls.Add(this.label3);
             this.grbQLNV.Controls.Add(this.label2);
-            this.grbQLNV.Controls.Add(this.textBox2);
+            this.grbQLNV.Controls.Add(this.txtDC);
             this.grbQLNV.Controls.Add(this.label4);
             this.grbQLNV.Controls.Add(this.txtTenNV);
             this.grbQLNV.Controls.Add(this.lblMaNV);
             this.grbQLNV.Controls.Add(this.lblTenKhachHang);
-            this.grbQLNV.Controls.Add(this.txtQLNV);
+            this.grbQLNV.Controls.Add(this.txtIDNV);
             this.grbQLNV.Controls.Add(this.lblSDT);
             this.grbQLNV.Location = new System.Drawing.Point(12, 60);
             this.grbQLNV.Name = "grbQLNV";
@@ -130,45 +130,45 @@
             this.grbQLNV.TabIndex = 26;
             this.grbQLNV.TabStop = false;
             // 
-            // radioButton2
+            // rdbNu
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.radioButton2.Location = new System.Drawing.Point(229, 111);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(45, 20);
-            this.radioButton2.TabIndex = 36;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "Nữ";
-            this.radioButton2.UseVisualStyleBackColor = true;
+            this.rdbNu.AutoSize = true;
+            this.rdbNu.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.rdbNu.Location = new System.Drawing.Point(229, 111);
+            this.rdbNu.Name = "rdbNu";
+            this.rdbNu.Size = new System.Drawing.Size(45, 20);
+            this.rdbNu.TabIndex = 36;
+            this.rdbNu.TabStop = true;
+            this.rdbNu.Text = "Nữ";
+            this.rdbNu.UseVisualStyleBackColor = true;
             // 
-            // radioButton1
+            // rdbNam
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.radioButton1.Location = new System.Drawing.Point(138, 111);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(57, 20);
-            this.radioButton1.TabIndex = 35;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Nam";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.rdbNam.AutoSize = true;
+            this.rdbNam.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.rdbNam.Location = new System.Drawing.Point(138, 111);
+            this.rdbNam.Name = "rdbNam";
+            this.rdbNam.Size = new System.Drawing.Size(57, 20);
+            this.rdbNam.TabIndex = 35;
+            this.rdbNam.TabStop = true;
+            this.rdbNam.Text = "Nam";
+            this.rdbNam.UseVisualStyleBackColor = true;
             // 
-            // maskedTextBox1
+            // mtbSDT
             // 
-            this.maskedTextBox1.Location = new System.Drawing.Point(632, 71);
-            this.maskedTextBox1.Name = "maskedTextBox1";
-            this.maskedTextBox1.Size = new System.Drawing.Size(223, 22);
-            this.maskedTextBox1.TabIndex = 34;
+            this.mtbSDT.Location = new System.Drawing.Point(632, 71);
+            this.mtbSDT.Name = "mtbSDT";
+            this.mtbSDT.Size = new System.Drawing.Size(223, 22);
+            this.mtbSDT.TabIndex = 34;
             // 
-            // dateTimePicker1
+            // dtpNgaysinh
             // 
-            this.dateTimePicker1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateTimePicker1.Location = new System.Drawing.Point(632, 111);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(225, 26);
-            this.dateTimePicker1.TabIndex = 33;
+            this.dtpNgaysinh.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dtpNgaysinh.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dtpNgaysinh.Location = new System.Drawing.Point(632, 111);
+            this.dtpNgaysinh.Name = "dtpNgaysinh";
+            this.dtpNgaysinh.Size = new System.Drawing.Size(225, 26);
+            this.dtpNgaysinh.TabIndex = 33;
             // 
             // label3
             // 
@@ -193,15 +193,13 @@
             this.label2.TabIndex = 31;
             this.label2.Text = "Địa Chỉ : ";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
-            // textBox2
+            // txtDC
             // 
-            this.textBox2.Location = new System.Drawing.Point(632, 27);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(223, 22);
-            this.textBox2.TabIndex = 30;
-            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            this.txtDC.Location = new System.Drawing.Point(632, 27);
+            this.txtDC.Name = "txtDC";
+            this.txtDC.Size = new System.Drawing.Size(223, 22);
+            this.txtDC.TabIndex = 30;
             // 
             // label4
             // 
@@ -214,7 +212,6 @@
             this.label4.TabIndex = 27;
             this.label4.Text = "Giới tính :";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // label1
             // 
@@ -229,23 +226,23 @@
             this.label1.Text = "Danh Sách Nhân Viên";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // dgv
+            // dgvQL_NV
             // 
-            this.dgv.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dgv.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgv.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dgvQL_NV.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dgvQL_NV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvQL_NV.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.clmMaNV,
             this.clmTenNV,
             this.clmGioitinh,
             this.clmDiachi,
             this.clmSDT,
             this.clmNgaysinh});
-            this.dgv.Location = new System.Drawing.Point(2, 213);
-            this.dgv.Name = "dgv";
-            this.dgv.RowHeadersWidth = 51;
-            this.dgv.RowTemplate.Height = 24;
-            this.dgv.Size = new System.Drawing.Size(951, 276);
-            this.dgv.TabIndex = 31;
+            this.dgvQL_NV.Location = new System.Drawing.Point(2, 213);
+            this.dgvQL_NV.Name = "dgvQL_NV";
+            this.dgvQL_NV.RowHeadersWidth = 51;
+            this.dgvQL_NV.RowTemplate.Height = 24;
+            this.dgvQL_NV.Size = new System.Drawing.Size(951, 276);
+            this.dgvQL_NV.TabIndex = 31;
             // 
             // clmMaNV
             // 
@@ -340,16 +337,15 @@
             this.Controls.Add(this.btnSuaNhanVien);
             this.Controls.Add(this.btnXoaNhanVien);
             this.Controls.Add(this.btnThemNhanVien);
-            this.Controls.Add(this.dgv);
+            this.Controls.Add(this.dgvQL_NV);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.grbQLNV);
             this.ForeColor = System.Drawing.Color.Black;
             this.Name = "frmQuanLyNhanVien";
             this.Text = "Quản Lý Nhân Viên";
-            this.Load += new System.EventHandler(this.frmQuanLyNhanVien_Load);
             this.grbQLNV.ResumeLayout(false);
             this.grbQLNV.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgv)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvQL_NV)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -358,19 +354,19 @@
         private System.Windows.Forms.TextBox txtTenNV;
         private System.Windows.Forms.Label lblSDT;
         private System.Windows.Forms.Label lblTenKhachHang;
-        private System.Windows.Forms.TextBox txtQLNV;
+        private System.Windows.Forms.TextBox txtIDNV;
         private System.Windows.Forms.Label lblMaNV;
         private System.Windows.Forms.GroupBox grbQLNV;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtDC;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.DateTimePicker dtpNgaysinh;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox1;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.RadioButton radioButton1;
-        private System.Windows.Forms.DataGridView dgv;
+        private System.Windows.Forms.MaskedTextBox mtbSDT;
+        private System.Windows.Forms.RadioButton rdbNu;
+        private System.Windows.Forms.RadioButton rdbNam;
+        private System.Windows.Forms.DataGridView dgvQL_NV;
         private System.Windows.Forms.Button btnThemNhanVien;
         private System.Windows.Forms.Button btnXoaNhanVien;
         private System.Windows.Forms.Button btnSuaNhanVien;
