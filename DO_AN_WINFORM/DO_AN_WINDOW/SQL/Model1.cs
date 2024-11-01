@@ -8,7 +8,7 @@ namespace WindowsFormsApp1.SQL
     public partial class Model1 : DbContext
     {
         public Model1()
-            : base("name=QLBH")
+            : base("name=Model1")
         {
         }
 
@@ -28,10 +28,6 @@ namespace WindowsFormsApp1.SQL
             modelBuilder.Entity<CHI_TIET_HOA_DON>()
                 .Property(e => e.hd_id)
                 .IsUnicode(false);
-
-            modelBuilder.Entity<CHI_TIET_HOA_DON>()
-                .Property(e => e.DonGia)
-                .HasPrecision(19, 4);
 
             modelBuilder.Entity<DANH_MUC>()
                 .Property(e => e.dm_id)
@@ -57,10 +53,6 @@ namespace WindowsFormsApp1.SQL
             modelBuilder.Entity<HOA_DON>()
                 .Property(e => e.kh_id)
                 .IsUnicode(false);
-
-            modelBuilder.Entity<HOA_DON>()
-                .Property(e => e.TienKhachTra)
-                .HasPrecision(19, 4);
 
             modelBuilder.Entity<HOA_DON>()
                 .HasMany(e => e.CHI_TIET_HOA_DON)

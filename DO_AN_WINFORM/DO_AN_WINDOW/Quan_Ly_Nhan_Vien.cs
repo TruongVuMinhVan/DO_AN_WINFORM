@@ -19,10 +19,13 @@ namespace WindowsFormsApp1
         public frmQuanLyNhanVien()
         {
             InitializeComponent();
-            this.TopLevel = false; //hoạt động trong panel
-            this.FormBorderStyle = FormBorderStyle.None;// ẩn viền
+            this.TopLevel = false;
+            this.FormBorderStyle = FormBorderStyle.None;
             this.Dock = DockStyle.Fill;
+            dbcontext = new Model1();
+            LoadNhanVien();
         }
+
         private void LoadNhanVien()
         {
             var employees = dbcontext.NHAN_VIEN.ToList();
@@ -31,23 +34,23 @@ namespace WindowsFormsApp1
 
         private void BindGrid(IEnumerable<NHAN_VIEN> employees)
         {
-            dgvQL_NV.Rows.Clear();
+            dgvNhanVien.Rows.Clear();
             foreach (var emp in employees)
             {
-                dgvQL_NV.Rows.Add(emp.nv_id, emp.nv_ten, emp.nv_diachi, emp.nv_sdt);
+                dgvNhanVien.Rows.Add(emp.nv_id, emp.nv_ten, emp.nv_diachi, emp.nv_sdt);
             }
         }
         private void ClearInputFields()
         {
-            txtIDNV.Clear();
+            txtMaNV.Clear();
             txtTenNV.Clear();
-            txtDC.Clear();
-            mtbSDT.Clear();
+            txtDiachi.Clear();
+            txtSDT.Clear();
         }
-        private void btnThemNhanVien_Click(object sender, EventArgs e)
+        private void btnThemNhanVien_Click_1(object sender, EventArgs e)
         {
             // Kiểm tra các trường thông tin không được bỏ trống
-            if (string.IsNullOrWhiteSpace(txtIDNV.Text) || string.IsNullOrWhiteSpace(txtTenNV.Text))
+            if (string.IsNullOrWhiteSpace(txtMaNV.Text) || string.IsNullOrWhiteSpace(txtTenNV.Text))
             {
                 MessageBox.Show("Vui lòng điền đầy đủ thông tin nhân viên.");
                 return;
@@ -55,10 +58,10 @@ namespace WindowsFormsApp1
 
             var newEmployee = new NHAN_VIEN
             {
-                nv_id = txtIDNV.Text.Trim(),
+                nv_id = txtMaNV.Text.Trim(),
                 nv_ten = txtTenNV.Text.Trim(),
-                nv_diachi = txtDC.Text.Trim(),
-                nv_sdt = string.IsNullOrEmpty(mtbSDT.Text) ? (int?)null : int.Parse(mtbSDT.Text.Trim())
+                nv_diachi = txtDiachi.Text.Trim(),
+                nv_sdt = string.IsNullOrEmpty(txtSDT.Text) ? (int?)null : int.Parse(txtSDT.Text.Trim())
             };
 
             try
@@ -73,23 +76,22 @@ namespace WindowsFormsApp1
                 MessageBox.Show($"Lỗi khi thêm nhân viên: {ex.Message}");
             }
         }
-        private void btnXoaNhanVien_Click(object sender, EventArgs e)
+
+        private void btnXoaNhanVien_Click_1(object sender, EventArgs e)
         {
-            if (string.IsNullOrEmpty(txtIDNV.Text))
+            if (string.IsNullOrEmpty(txtMaNV.Text))
             {
                 MessageBox.Show("Vui lòng chọn nhân viên để xóa!");
                 return;
             }
 
-            var employeeId = txtIDNV.Text.Trim();
+            var employeeId = txtMaNV.Text.Trim();
             var employee = dbcontext.NHAN_VIEN.Find(employeeId);
             if (employee == null)
             {
                 MessageBox.Show("Nhân viên cần xóa không tồn tại!");
                 return;
             }
-
-
             var result = MessageBox.Show("Bạn có muốn xóa không?", "Xác nhận", MessageBoxButtons.YesNo);
             if (result == DialogResult.Yes)
             {
@@ -101,16 +103,40 @@ namespace WindowsFormsApp1
             }
         }
 
+            private void dgvNhanVien_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            try
+            {
+                // Kiểm tra xem có phải là hàng dữ liệu không và ô được nhấp không phải là ô trống
+                if (e.RowIndex >= 0 && e.ColumnIndex >= 0)
+                {
+                    var selectedRow = dgvNhanVien.Rows[e.RowIndex];
+
+                    // Kiểm tra ô ID nhân viên có giá trị không
+                    if (selectedRow.Cells["nv_id"].Value != null && !string.IsNullOrWhiteSpace(selectedRow.Cells["nv_id"].Value.ToString()))
+                    {
+                        txtMaNV.Text = selectedRow.Cells["nv_id"].Value.ToString(); // Lấy mã nhân viên
+                        txtTenNV.Text = selectedRow.Cells["nv_ten"].Value?.ToString(); // Lấy tên nhân viên
+                        txtDiachi.Text = selectedRow.Cells["nv_diachi"].Value?.ToString(); // Lấy địa chỉ
+                        txtSDT.Text = selectedRow.Cells["nv_sdt"].Value != null ? selectedRow.Cells["nv_sdt"].Value.ToString() : string.Empty; // Lấy số điện thoại
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Lỗi khi chọn nhân viên: {ex.Message}");
+            }
+        }
 
         private void btnSuaNhanVien_Click(object sender, EventArgs e)
         {
-            if (string.IsNullOrWhiteSpace(txtIDNV.Text))
+            if (string.IsNullOrWhiteSpace(txtMaNV.Text))
             {
                 MessageBox.Show("Vui lòng chọn nhân viên để sửa!");
                 return;
             }
 
-            var employeeId = txtIDNV.Text.Trim();
+            var employeeId = txtMaNV.Text.Trim();
             var employee = dbcontext.NHAN_VIEN.Find(employeeId);
 
             if (employee == null)
@@ -120,8 +146,8 @@ namespace WindowsFormsApp1
             }
 
             employee.nv_ten = txtTenNV.Text.Trim();
-            employee.nv_diachi = txtDC.Text.Trim();
-            employee.nv_sdt = string.IsNullOrEmpty(mtbSDT.Text) ? (int?)null : int.Parse(mtbSDT.Text.Trim());
+            employee.nv_diachi = txtDiachi.Text.Trim();
+            employee.nv_sdt = string.IsNullOrEmpty(txtSDT.Text) ? (int?)null : int.Parse(txtSDT.Text.Trim());
 
             try
             {
@@ -136,15 +162,24 @@ namespace WindowsFormsApp1
             }
         }
 
+
+
+
+        private void btnDong_Click_1(object sender, EventArgs e)
+        {
+            MessageBox.Show("Bạn có muốn thoát?", "Thông báo", MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
+            this.Close();
+        }
+
         private void btnLuu_Click(object sender, EventArgs e)
         {
-            if (string.IsNullOrWhiteSpace(txtIDNV.Text))
+            if (string.IsNullOrWhiteSpace(txtMaNV.Text))
             {
                 MessageBox.Show("Vui lòng chọn nhân viên để lưu!");
                 return;
             }
 
-            var employeeId = txtIDNV.Text.Trim();
+            var employeeId = txtMaNV.Text.Trim();
             var employee = dbcontext.NHAN_VIEN.FirstOrDefault(emp => emp.nv_id == employeeId);
 
             if (employee == null)
@@ -154,8 +189,8 @@ namespace WindowsFormsApp1
             }
 
             employee.nv_ten = txtTenNV.Text.Trim();
-            employee.nv_diachi = txtDC.Text.Trim();
-            employee.nv_sdt = string.IsNullOrEmpty(mtbSDT.Text) ? (int?)null : int.Parse(mtbSDT.Text.Trim());
+            employee.nv_diachi = txtDiachi.Text.Trim();
+            employee.nv_sdt = string.IsNullOrEmpty(txtSDT.Text) ? (int?)null : int.Parse(txtSDT.Text.Trim());
 
             try
             {

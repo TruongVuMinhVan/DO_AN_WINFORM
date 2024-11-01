@@ -3,28 +3,12 @@
   "WorkspaceRootPath": "D:\\DO_AN_WINFORM\\DO_AN_WINFORM\\DO_AN_WINDOW\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{38AAC674-14B6-436D-A230-A6A7331E8268}|Do_an_window.csproj|d:\\do_an_winform\\do_an_winform\\do_an_window\\quan_ly_nhan_vien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38AAC674-14B6-436D-A230-A6A7331E8268}|Do_an_window.csproj|solutionrelative:quan_ly_nhan_vien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{38AAC674-14B6-436D-A230-A6A7331E8268}|Do_an_window.csproj|d:\\do_an_winform\\do_an_winform\\do_an_window\\san_pham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{38AAC674-14B6-436D-A230-A6A7331E8268}|Do_an_window.csproj|solutionrelative:san_pham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{38AAC674-14B6-436D-A230-A6A7331E8268}|Do_an_window.csproj|D:\\DO_AN_WINFORM\\DO_AN_WINFORM\\DO_AN_WINDOW\\khach_hang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38AAC674-14B6-436D-A230-A6A7331E8268}|Do_an_window.csproj|solutionrelative:khach_hang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38AAC674-14B6-436D-A230-A6A7331E8268}|Do_an_window.csproj|D:\\DO_AN_WINFORM\\DO_AN_WINFORM\\DO_AN_WINDOW\\quan_ly_nhan_vien.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38AAC674-14B6-436D-A230-A6A7331E8268}|Do_an_window.csproj|solutionrelative:quan_ly_nhan_vien.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38AAC674-14B6-436D-A230-A6A7331E8268}|Do_an_window.csproj|D:\\DO_AN_WINFORM\\DO_AN_WINFORM\\DO_AN_WINDOW\\quan_ly_nhan_vien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{38AAC674-14B6-436D-A230-A6A7331E8268}|Do_an_window.csproj|solutionrelative:quan_ly_nhan_vien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38AAC674-14B6-436D-A230-A6A7331E8268}|Do_an_window.csproj|D:\\DO_AN_WINFORM\\DO_AN_WINFORM\\DO_AN_WINDOW\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38AAC674-14B6-436D-A230-A6A7331E8268}|Do_an_window.csproj|solutionrelative:main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38AAC674-14B6-436D-A230-A6A7331E8268}|Do_an_window.csproj|D:\\DO_AN_WINFORM\\DO_AN_WINFORM\\DO_AN_WINDOW\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{38AAC674-14B6-436D-A230-A6A7331E8268}|Do_an_window.csproj|solutionrelative:main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{38AAC674-14B6-436D-A230-A6A7331E8268}|Do_an_window.csproj|D:\\DO_AN_WINFORM\\DO_AN_WINFORM\\DO_AN_WINDOW\\san_pham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38AAC674-14B6-436D-A230-A6A7331E8268}|Do_an_window.csproj|solutionrelative:san_pham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,89 +18,36 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{873151d0-cf2e-48cc-b4bf-ad0394f6a3c3}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Quan_Ly_Nhan_Vien.Designer.cs",
-              "DocumentMoniker": "D:\\DO_AN_WINFORM\\DO_AN_WINFORM\\DO_AN_WINDOW\\Quan_Ly_Nhan_Vien.Designer.cs",
-              "RelativeDocumentMoniker": "Quan_Ly_Nhan_Vien.Designer.cs",
-              "ToolTip": "D:\\DO_AN_WINFORM\\DO_AN_WINFORM\\DO_AN_WINDOW\\Quan_Ly_Nhan_Vien.Designer.cs",
-              "RelativeToolTip": "Quan_Ly_Nhan_Vien.Designer.cs",
-              "ViewState": "AgIAAE0BAAAAAAAAAAAowFkBAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T04:16:52.281Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Quan_Ly_Nhan_Vien.cs [Design]",
-              "DocumentMoniker": "D:\\DO_AN_WINFORM\\DO_AN_WINFORM\\DO_AN_WINDOW\\Quan_Ly_Nhan_Vien.cs",
-              "RelativeDocumentMoniker": "Quan_Ly_Nhan_Vien.cs",
-              "ToolTip": "D:\\DO_AN_WINFORM\\DO_AN_WINFORM\\DO_AN_WINDOW\\Quan_Ly_Nhan_Vien.cs [Design]",
-              "RelativeToolTip": "Quan_Ly_Nhan_Vien.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T13:17:30.077Z",
-              "EditorCaption": " [Design]"
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Khach_Hang.cs",
-              "DocumentMoniker": "D:\\DO_AN_WINFORM\\DO_AN_WINFORM\\DO_AN_WINDOW\\Khach_Hang.cs",
-              "RelativeDocumentMoniker": "Khach_Hang.cs",
-              "ToolTip": "D:\\DO_AN_WINFORM\\DO_AN_WINFORM\\DO_AN_WINDOW\\Khach_Hang.cs",
-              "RelativeToolTip": "Khach_Hang.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAADUAAAAMAAAAAAAAAA==",
+              "Title": "San_Pham.cs",
+              "DocumentMoniker": "D:\\DO_AN_WINFORM\\DO_AN_WINFORM\\DO_AN_WINDOW\\San_Pham.cs",
+              "RelativeDocumentMoniker": "San_Pham.cs",
+              "ToolTip": "D:\\DO_AN_WINFORM\\DO_AN_WINFORM\\DO_AN_WINDOW\\San_Pham.cs",
+              "RelativeToolTip": "San_Pham.cs",
+              "ViewState": "AgIAAK0AAAAAAAAAAAAswLwAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T02:16:10.785Z",
+              "WhenOpened": "2024-10-31T06:51:48.224Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Quan_Ly_Nhan_Vien.cs",
-              "DocumentMoniker": "D:\\DO_AN_WINFORM\\DO_AN_WINFORM\\DO_AN_WINDOW\\Quan_Ly_Nhan_Vien.cs",
-              "RelativeDocumentMoniker": "Quan_Ly_Nhan_Vien.cs",
-              "ToolTip": "D:\\DO_AN_WINFORM\\DO_AN_WINFORM\\DO_AN_WINDOW\\Quan_Ly_Nhan_Vien.cs",
-              "RelativeToolTip": "Quan_Ly_Nhan_Vien.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKsAAAABAAAAAAAAAA==",
+              "Title": "San_Pham.cs [Design]",
+              "DocumentMoniker": "D:\\DO_AN_WINFORM\\DO_AN_WINFORM\\DO_AN_WINDOW\\San_Pham.cs",
+              "RelativeDocumentMoniker": "San_Pham.cs",
+              "ToolTip": "D:\\DO_AN_WINFORM\\DO_AN_WINFORM\\DO_AN_WINDOW\\San_Pham.cs [Design]",
+              "RelativeToolTip": "San_Pham.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T13:13:48.295Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Main.cs",
-              "DocumentMoniker": "D:\\DO_AN_WINFORM\\DO_AN_WINFORM\\DO_AN_WINDOW\\Main.cs",
-              "RelativeDocumentMoniker": "Main.cs",
-              "ToolTip": "D:\\DO_AN_WINFORM\\DO_AN_WINFORM\\DO_AN_WINDOW\\Main.cs",
-              "RelativeToolTip": "Main.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAYwCcAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T09:42:49.673Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Main.cs [Design]",
-              "DocumentMoniker": "D:\\DO_AN_WINFORM\\DO_AN_WINFORM\\DO_AN_WINDOW\\Main.cs",
-              "RelativeDocumentMoniker": "Main.cs",
-              "ToolTip": "D:\\DO_AN_WINFORM\\DO_AN_WINFORM\\DO_AN_WINDOW\\Main.cs [Design]",
-              "RelativeToolTip": "Main.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T09:42:47.657Z"
+              "WhenOpened": "2024-10-31T05:59:56.024Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }
