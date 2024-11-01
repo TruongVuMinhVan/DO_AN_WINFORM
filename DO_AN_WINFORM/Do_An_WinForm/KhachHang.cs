@@ -47,7 +47,17 @@ namespace Do_An_WinForm
 
             foreach (var customer in customers)
             {
-                dgvQLKH.Rows.Add(customer.kh_id, customer.kh_ten, customer.kh_gioitinh, customer.kh_sdt);
+                int index = dgvQLKH.Rows.Add();
+
+
+                dgvQLKH.Rows[index].Cells[0].Value = customer.kh_id;
+
+                dgvQLKH.Rows[index].Cells[1].Value = customer.kh_ten;
+
+                dgvQLKH.Rows[index].Cells[2].Value = customer.kh_gioitinh;
+
+
+                dgvQLKH.Rows[index].Cells[3].Value = customer.kh_sdt;
             }
         }
         private void ClearInputFields()

@@ -3,14 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\ADMIN\\source\\repos\\Do_An_WinForm\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{40E0A307-75DF-4776-A4DC-426EE77AE615}|Do_An_WinForm\\Do_An_WinForm.csproj|c:\\users\\admin\\source\\repos\\do_an_winform\\do_an_winform\\timkiemsanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40E0A307-75DF-4776-A4DC-426EE77AE615}|Do_An_WinForm\\Do_An_WinForm.csproj|solutionrelative:do_an_winform\\timkiemsanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40E0A307-75DF-4776-A4DC-426EE77AE615}|Do_An_WinForm\\Do_An_WinForm.csproj|c:\\users\\admin\\source\\repos\\do_an_winform\\do_an_winform\\timkiemsanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{40E0A307-75DF-4776-A4DC-426EE77AE615}|Do_An_WinForm\\Do_An_WinForm.csproj|solutionrelative:do_an_winform\\timkiemsanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{40E0A307-75DF-4776-A4DC-426EE77AE615}|Do_An_WinForm\\Do_An_WinForm.csproj|c:\\users\\admin\\source\\repos\\do_an_winform\\do_an_winform\\thongke.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{40E0A307-75DF-4776-A4DC-426EE77AE615}|Do_An_WinForm\\Do_An_WinForm.csproj|solutionrelative:do_an_winform\\thongke.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -19,28 +11,8 @@
       "RelativeMoniker": "D:0:0:{40E0A307-75DF-4776-A4DC-426EE77AE615}|Do_An_WinForm\\Do_An_WinForm.csproj|solutionrelative:do_an_winform\\thongke.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{40E0A307-75DF-4776-A4DC-426EE77AE615}|Do_An_WinForm\\Do_An_WinForm.csproj|c:\\users\\admin\\source\\repos\\do_an_winform\\do_an_winform\\sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40E0A307-75DF-4776-A4DC-426EE77AE615}|Do_An_WinForm\\Do_An_WinForm.csproj|solutionrelative:do_an_winform\\sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40E0A307-75DF-4776-A4DC-426EE77AE615}|Do_An_WinForm\\Do_An_WinForm.csproj|c:\\users\\admin\\source\\repos\\do_an_winform\\do_an_winform\\sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{40E0A307-75DF-4776-A4DC-426EE77AE615}|Do_An_WinForm\\Do_An_WinForm.csproj|solutionrelative:do_an_winform\\sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40E0A307-75DF-4776-A4DC-426EE77AE615}|Do_An_WinForm\\Do_An_WinForm.csproj|c:\\users\\admin\\source\\repos\\do_an_winform\\do_an_winform\\quanlynhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40E0A307-75DF-4776-A4DC-426EE77AE615}|Do_An_WinForm\\Do_An_WinForm.csproj|solutionrelative:do_an_winform\\quanlynhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40E0A307-75DF-4776-A4DC-426EE77AE615}|Do_An_WinForm\\Do_An_WinForm.csproj|c:\\users\\admin\\source\\repos\\do_an_winform\\do_an_winform\\quanlynhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{40E0A307-75DF-4776-A4DC-426EE77AE615}|Do_An_WinForm\\Do_An_WinForm.csproj|solutionrelative:do_an_winform\\quanlynhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40E0A307-75DF-4776-A4DC-426EE77AE615}|Do_An_WinForm\\Do_An_WinForm.csproj|c:\\users\\admin\\source\\repos\\do_an_winform\\do_an_winform\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40E0A307-75DF-4776-A4DC-426EE77AE615}|Do_An_WinForm\\Do_An_WinForm.csproj|solutionrelative:do_an_winform\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40E0A307-75DF-4776-A4DC-426EE77AE615}|Do_An_WinForm\\Do_An_WinForm.csproj|c:\\users\\admin\\source\\repos\\do_an_winform\\do_an_winform\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{40E0A307-75DF-4776-A4DC-426EE77AE615}|Do_An_WinForm\\Do_An_WinForm.csproj|solutionrelative:do_an_winform\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{40E0A307-75DF-4776-A4DC-426EE77AE615}|Do_An_WinForm\\Do_An_WinForm.csproj|c:\\users\\admin\\source\\repos\\do_an_winform\\do_an_winform\\thanhtoannganhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{40E0A307-75DF-4776-A4DC-426EE77AE615}|Do_An_WinForm\\Do_An_WinForm.csproj|solutionrelative:do_an_winform\\thanhtoannganhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -55,126 +27,38 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "TimKiemSanPham.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Do_An_WinForm\\Do_An_WinForm\\TimKiemSanPham.cs",
-              "RelativeDocumentMoniker": "Do_An_WinForm\\TimKiemSanPham.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Do_An_WinForm\\Do_An_WinForm\\TimKiemSanPham.cs",
-              "RelativeToolTip": "Do_An_WinForm\\TimKiemSanPham.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T11:39:09.523Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TimKiemSanPham.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Do_An_WinForm\\Do_An_WinForm\\TimKiemSanPham.cs",
-              "RelativeDocumentMoniker": "Do_An_WinForm\\TimKiemSanPham.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Do_An_WinForm\\Do_An_WinForm\\TimKiemSanPham.cs [Design]",
-              "RelativeToolTip": "Do_An_WinForm\\TimKiemSanPham.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T11:39:06.906Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "ThongKe.cs",
               "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Do_An_WinForm\\Do_An_WinForm\\ThongKe.cs",
               "RelativeDocumentMoniker": "Do_An_WinForm\\ThongKe.cs",
               "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Do_An_WinForm\\Do_An_WinForm\\ThongKe.cs",
               "RelativeToolTip": "Do_An_WinForm\\ThongKe.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAK4AAAAAAAAAAAAowIEAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T11:38:53.442Z",
+              "WhenOpened": "2024-11-01T15:34:59.119Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "ThongKe.cs [Design]",
               "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Do_An_WinForm\\Do_An_WinForm\\ThongKe.cs",
               "RelativeDocumentMoniker": "Do_An_WinForm\\ThongKe.cs",
               "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Do_An_WinForm\\Do_An_WinForm\\ThongKe.cs [Design]",
               "RelativeToolTip": "Do_An_WinForm\\ThongKe.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T11:38:51.329Z",
+              "WhenOpened": "2024-11-01T15:34:52.789Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "SanPham.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Do_An_WinForm\\Do_An_WinForm\\SanPham.cs",
-              "RelativeDocumentMoniker": "Do_An_WinForm\\SanPham.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Do_An_WinForm\\Do_An_WinForm\\SanPham.cs",
-              "RelativeToolTip": "Do_An_WinForm\\SanPham.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAnAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "ThanhToanNganHang.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Do_An_WinForm\\Do_An_WinForm\\ThanhToanNganHang.cs",
+              "RelativeDocumentMoniker": "Do_An_WinForm\\ThanhToanNganHang.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Do_An_WinForm\\Do_An_WinForm\\ThanhToanNganHang.cs [Design]",
+              "RelativeToolTip": "Do_An_WinForm\\ThanhToanNganHang.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T11:38:47.696Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "SanPham.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Do_An_WinForm\\Do_An_WinForm\\SanPham.cs",
-              "RelativeDocumentMoniker": "Do_An_WinForm\\SanPham.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Do_An_WinForm\\Do_An_WinForm\\SanPham.cs [Design]",
-              "RelativeToolTip": "Do_An_WinForm\\SanPham.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T11:38:32.393Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "QuanLyNhanVien.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Do_An_WinForm\\Do_An_WinForm\\QuanLyNhanVien.cs",
-              "RelativeDocumentMoniker": "Do_An_WinForm\\QuanLyNhanVien.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Do_An_WinForm\\Do_An_WinForm\\QuanLyNhanVien.cs",
-              "RelativeToolTip": "Do_An_WinForm\\QuanLyNhanVien.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T11:38:28.025Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "QuanLyNhanVien.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Do_An_WinForm\\Do_An_WinForm\\QuanLyNhanVien.cs",
-              "RelativeDocumentMoniker": "Do_An_WinForm\\QuanLyNhanVien.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Do_An_WinForm\\Do_An_WinForm\\QuanLyNhanVien.cs [Design]",
-              "RelativeToolTip": "Do_An_WinForm\\QuanLyNhanVien.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T11:38:11.783Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "KhachHang.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Do_An_WinForm\\Do_An_WinForm\\KhachHang.cs",
-              "RelativeDocumentMoniker": "Do_An_WinForm\\KhachHang.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Do_An_WinForm\\Do_An_WinForm\\KhachHang.cs",
-              "RelativeToolTip": "Do_An_WinForm\\KhachHang.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAswFIAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T11:22:14.109Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "KhachHang.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Do_An_WinForm\\Do_An_WinForm\\KhachHang.cs",
-              "RelativeDocumentMoniker": "Do_An_WinForm\\KhachHang.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Do_An_WinForm\\Do_An_WinForm\\KhachHang.cs [Design]",
-              "RelativeToolTip": "Do_An_WinForm\\KhachHang.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T11:22:10.674Z",
+              "WhenOpened": "2024-11-01T14:44:55.841Z",
               "EditorCaption": " [Design]"
             }
           ]

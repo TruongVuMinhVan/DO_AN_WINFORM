@@ -37,10 +37,6 @@
             this.btnThemNhanVien = new System.Windows.Forms.Button();
             this.lblQLKhachhang = new System.Windows.Forms.Label();
             this.dgvQLKH = new System.Windows.Forms.DataGridView();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.grbQLNV = new System.Windows.Forms.GroupBox();
             this.rdbNu = new System.Windows.Forms.RadioButton();
             this.rdbNam = new System.Windows.Forms.RadioButton();
@@ -51,6 +47,10 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dgvQLKH)).BeginInit();
             this.grbQLNV.SuspendLayout();
             this.SuspendLayout();
@@ -145,9 +145,9 @@
             this.dgvQLKH.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvQLKH.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1,
-            this.Column4,
             this.Column2,
-            this.Column3});
+            this.Column3,
+            this.Column4});
             this.dgvQLKH.Location = new System.Drawing.Point(4, 212);
             this.dgvQLKH.Name = "dgvQLKH";
             this.dgvQLKH.RowHeadersWidth = 51;
@@ -156,30 +156,6 @@
             this.dgvQLKH.TabIndex = 47;
             this.dgvQLKH.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvQLKH_CellClick);
             this.dgvQLKH.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvQLKH_CellContentClick);
-            // 
-            // Column1
-            // 
-            this.Column1.HeaderText = "Mã Khách Hàng";
-            this.Column1.MinimumWidth = 6;
-            this.Column1.Name = "Column1";
-            // 
-            // Column4
-            // 
-            this.Column4.HeaderText = "SĐT";
-            this.Column4.MinimumWidth = 6;
-            this.Column4.Name = "Column4";
-            // 
-            // Column2
-            // 
-            this.Column2.HeaderText = "Tên Khách Hàng";
-            this.Column2.MinimumWidth = 6;
-            this.Column2.Name = "Column2";
-            // 
-            // Column3
-            // 
-            this.Column3.HeaderText = "Giới Tính";
-            this.Column3.MinimumWidth = 6;
-            this.Column3.Name = "Column3";
             // 
             // grbQLNV
             // 
@@ -289,6 +265,30 @@
             this.label2.Text = "Số điện thoại:";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // Column1
+            // 
+            this.Column1.HeaderText = "Mã Khách Hàng";
+            this.Column1.MinimumWidth = 6;
+            this.Column1.Name = "Column1";
+            // 
+            // Column2
+            // 
+            this.Column2.HeaderText = "Tên Khách Hàng";
+            this.Column2.MinimumWidth = 6;
+            this.Column2.Name = "Column2";
+            // 
+            // Column3
+            // 
+            this.Column3.HeaderText = "Giới Tính";
+            this.Column3.MinimumWidth = 6;
+            this.Column3.Name = "Column3";
+            // 
+            // Column4
+            // 
+            this.Column4.HeaderText = "SĐT";
+            this.Column4.MinimumWidth = 6;
+            this.Column4.Name = "Column4";
+            // 
             // frmKhachHang
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -326,10 +326,6 @@
         private System.Windows.Forms.Button btnThemNhanVien;
         private System.Windows.Forms.Label lblQLKhachhang;
         private System.Windows.Forms.DataGridView dgvQLKH;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
         private System.Windows.Forms.GroupBox grbQLNV;
         private System.Windows.Forms.RadioButton rdbNu;
         private System.Windows.Forms.RadioButton rdbNam;
@@ -340,5 +336,9 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
     }
 }

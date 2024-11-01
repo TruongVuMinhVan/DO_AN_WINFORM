@@ -16,3 +16,8 @@ C:\Users\ADMIN\source\repos\Do_An_WinForm\Do_An_WinForm\obj\Debug\Do_An_WinForm.
 C:\Users\ADMIN\source\repos\Do_An_WinForm\Do_An_WinForm\obj\Debug\Do_An_WinForm.csproj.CoreCompileInputs.cache
 C:\Users\ADMIN\source\repos\Do_An_WinForm\Do_An_WinForm\obj\Debug\Do_An_WinForm.exe
 C:\Users\ADMIN\source\repos\Do_An_WinForm\Do_An_WinForm\obj\Debug\Do_An_WinForm.pdb
+C:\Users\ADMIN\source\repos\Do_An_WinForm\Do_An_WinForm\bin\Debug\EntityFramework.dll
+C:\Users\ADMIN\source\repos\Do_An_WinForm\Do_An_WinForm\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ADMIN\source\repos\Do_An_WinForm\Do_An_WinForm\bin\Debug\EntityFramework.xml
+C:\Users\ADMIN\source\repos\Do_An_WinForm\Do_An_WinForm\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ADMIN\source\repos\Do_An_WinForm\Do_An_WinForm\obj\Debug\Do_An_Wi.144F5C2E.Up2Date
