@@ -1,10 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ADMIN\\source\\repos\\Do_An_WinForm\\",
+  "WorkspaceRootPath": "D:\\STUDY\\LT_WINDOW\\DO_AN\\DO_AN_WINFORM\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{40E0A307-75DF-4776-A4DC-426EE77AE615}|Do_An_WinForm\\Do_An_WinForm.csproj|c:\\users\\admin\\source\\repos\\do_an_winform\\do_an_winform\\thanhtoannganhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{40E0A307-75DF-4776-A4DC-426EE77AE615}|Do_An_WinForm\\Do_An_WinForm.csproj|solutionrelative:do_an_winform\\thanhtoannganhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\STUDY\\LT_WINDOW\\DO_AN\\DO_AN_WINFORM\\DO_AN_WINDOW\\Khach_Hang.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DO_AN_WINDOW\\Khach_Hang.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +14,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ThanhToanNganHang.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Do_An_WinForm\\Do_An_WinForm\\ThanhToanNganHang.cs",
-              "RelativeDocumentMoniker": "Do_An_WinForm\\ThanhToanNganHang.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Do_An_WinForm\\Do_An_WinForm\\ThanhToanNganHang.cs [Design]",
-              "RelativeToolTip": "Do_An_WinForm\\ThanhToanNganHang.cs [Design]",
+              "Title": "Khach_Hang.Designer.cs",
+              "DocumentMoniker": "D:\\STUDY\\LT_WINDOW\\DO_AN\\DO_AN_WINFORM\\DO_AN_WINDOW\\Khach_Hang.Designer.cs",
+              "RelativeDocumentMoniker": "DO_AN_WINDOW\\Khach_Hang.Designer.cs",
+              "ToolTip": "D:\\STUDY\\LT_WINDOW\\DO_AN\\DO_AN_WINFORM\\DO_AN_WINDOW\\Khach_Hang.Designer.cs",
+              "RelativeToolTip": "DO_AN_WINDOW\\Khach_Hang.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T14:44:55.841Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-10-25T15:30:14.843Z",
+              "EditorCaption": ""
             }
           ]
         }
