@@ -34,17 +34,20 @@
             // rvInHoaDon
             // 
             this.rvInHoaDon.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.rvInHoaDon.LocalReport.DisplayName = "In_Hoa_Don.rdlc";
+            this.rvInHoaDon.LocalReport.ReportEmbeddedResource = "WindowsFormsApp1.In_Hoa_Don.rdlc";
             this.rvInHoaDon.Location = new System.Drawing.Point(0, 0);
-            this.rvInHoaDon.Name = "reportViewer1";
+            this.rvInHoaDon.Name = "rvInHoaDon";
             this.rvInHoaDon.ServerReport.BearerToken = null;
-            this.rvInHoaDon.Size = new System.Drawing.Size(800, 450);
+            this.rvInHoaDon.Size = new System.Drawing.Size(865, 762);
             this.rvInHoaDon.TabIndex = 0;
+            this.rvInHoaDon.Load += new System.EventHandler(this.rvInHoaDon_Load);
             // 
             // Xuat_Hoa_Don
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(865, 762);
             this.Controls.Add(this.rvInHoaDon);
             this.Name = "Xuat_Hoa_Don";
             this.Text = "Xuất Hóa Đơn";

@@ -45,7 +45,7 @@
             this.panelcontent.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelcontent.Location = new System.Drawing.Point(0, 28);
             this.panelcontent.Name = "panelcontent";
-            this.panelcontent.Size = new System.Drawing.Size(949, 651);
+            this.panelcontent.Size = new System.Drawing.Size(949, 760);
             this.panelcontent.TabIndex = 6;
             // 
             // menu
@@ -126,12 +126,13 @@
             this.đăngXuấtToolStripMenuItem.Name = "đăngXuấtToolStripMenuItem";
             this.đăngXuấtToolStripMenuItem.Size = new System.Drawing.Size(109, 24);
             this.đăngXuấtToolStripMenuItem.Text = "Đăng Xuất";
+            this.đăngXuấtToolStripMenuItem.Click += new System.EventHandler(this.đăngXuấtToolStripMenuItem_Click);
             // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(949, 679);
+            this.ClientSize = new System.Drawing.Size(949, 788);
             this.Controls.Add(this.panelcontent);
             this.Controls.Add(this.menu);
             this.Name = "Main";

@@ -8,7 +8,7 @@ namespace WindowsFormsApp1.SQL
     public partial class Model : DbContext
     {
         public Model()
-            : base("name=Model_QLBH")
+            : base("name=Model_QuanLyBanHang")
         {
         }
 
@@ -18,6 +18,7 @@ namespace WindowsFormsApp1.SQL
         public virtual DbSet<KHACH_HANG> KHACH_HANG { get; set; }
         public virtual DbSet<NHAN_VIEN> NHAN_VIEN { get; set; }
         public virtual DbSet<SAN_PHAM> SAN_PHAM { get; set; }
+        public virtual DbSet<View_HoaDonReport> View_HoaDonReport { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
@@ -97,6 +98,22 @@ namespace WindowsFormsApp1.SQL
                 .HasMany(e => e.CHI_TIET_HOA_DON)
                 .WithRequired(e => e.SAN_PHAM)
                 .WillCascadeOnDelete(false);
+
+            modelBuilder.Entity<View_HoaDonReport>()
+                .Property(e => e.MaHoaDon)
+                .IsUnicode(false);
+
+            modelBuilder.Entity<View_HoaDonReport>()
+                .Property(e => e.DonGia)
+                .HasPrecision(19, 4);
+
+            modelBuilder.Entity<View_HoaDonReport>()
+                .Property(e => e.ThanhTien)
+                .HasPrecision(19, 4);
+
+            modelBuilder.Entity<View_HoaDonReport>()
+                .Property(e => e.TongTien)
+                .HasPrecision(19, 4);
         }
     }
 }
