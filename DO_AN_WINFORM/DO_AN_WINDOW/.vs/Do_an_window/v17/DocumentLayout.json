@@ -9,6 +9,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{38AAC674-14B6-436D-A230-A6A7331E8268}|Do_an_window.csproj|D:\\DO_AN_WINFORM\\DO_AN_WINFORM\\DO_AN_WINDOW\\san_pham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{38AAC674-14B6-436D-A230-A6A7331E8268}|Do_an_window.csproj|solutionrelative:san_pham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38AAC674-14B6-436D-A230-A6A7331E8268}|Do_an_window.csproj|d:\\do_an_winform\\do_an_winform\\do_an_window\\hoa_don.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{38AAC674-14B6-436D-A230-A6A7331E8268}|Do_an_window.csproj|solutionrelative:hoa_don.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,11 +22,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Hoa_Don.cs [Design]",
+              "DocumentMoniker": "D:\\DO_AN_WINFORM\\DO_AN_WINFORM\\DO_AN_WINDOW\\Hoa_Don.cs",
+              "RelativeDocumentMoniker": "Hoa_Don.cs",
+              "ToolTip": "D:\\DO_AN_WINFORM\\DO_AN_WINFORM\\DO_AN_WINDOW\\Hoa_Don.cs [Design]",
+              "RelativeToolTip": "Hoa_Don.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T13:51:38.705Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
@@ -32,7 +48,7 @@
               "RelativeDocumentMoniker": "San_Pham.cs",
               "ToolTip": "D:\\DO_AN_WINFORM\\DO_AN_WINFORM\\DO_AN_WINDOW\\San_Pham.cs",
               "RelativeToolTip": "San_Pham.cs",
-              "ViewState": "AgIAAK0AAAAAAAAAAAAswLwAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAwwPYAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-31T06:51:48.224Z",
               "EditorCaption": ""

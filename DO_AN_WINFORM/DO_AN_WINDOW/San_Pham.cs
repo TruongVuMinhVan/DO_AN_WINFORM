@@ -244,23 +244,7 @@ namespace WindowsFormsApp1
             }
         }
 
-        private void btnMo_Click(object sender, EventArgs e)
-        {
-            if (string.IsNullOrWhiteSpace(txtURLAnh.Text))
-            {
-                MessageBox.Show("Vui lòng nhập URL ảnh sản phẩm.");
-                return;
-            }
-
-            try
-            {
-                ptbAnh.Image = Image.FromFile(txtURLAnh.Text);
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show($"Lỗi khi mở ảnh: {ex.Message}", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-        }
+       
     }
 
 }

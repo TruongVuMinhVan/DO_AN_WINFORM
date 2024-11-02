@@ -40,21 +40,20 @@
             this.txtSoluong = new System.Windows.Forms.TextBox();
             this.txtDanhMucID = new System.Windows.Forms.TextBox();
             this.ptbAnh = new System.Windows.Forms.PictureBox();
-            this.btnMo = new System.Windows.Forms.Button();
             this.txtDongianban = new System.Windows.Forms.TextBox();
             this.dgvSanpham = new System.Windows.Forms.DataGridView();
-            this.btnDong = new System.Windows.Forms.Button();
-            this.btnLuu = new System.Windows.Forms.Button();
-            this.btnSuaSP = new System.Windows.Forms.Button();
-            this.btnXoaSP = new System.Windows.Forms.Button();
-            this.btnThemSP = new System.Windows.Forms.Button();
-            this.txtURLAnh = new System.Windows.Forms.TextBox();
             this.sp_id = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.sp_ten = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.soluongton = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.sp_gia = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.sp_anh = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dm_id = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.btnDong = new System.Windows.Forms.Button();
+            this.btnLuu = new System.Windows.Forms.Button();
+            this.btnSuaSP = new System.Windows.Forms.Button();
+            this.btnXoaSP = new System.Windows.Forms.Button();
+            this.btnThemSP = new System.Windows.Forms.Button();
+            this.txtURLAnh = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.ptbAnh)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvSanpham)).BeginInit();
             this.SuspendLayout();
@@ -65,7 +64,7 @@
             this.lblQLSanpham.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.lblQLSanpham.Location = new System.Drawing.Point(0, 4);
             this.lblQLSanpham.Name = "lblQLSanpham";
-            this.lblQLSanpham.Size = new System.Drawing.Size(1046, 56);
+            this.lblQLSanpham.Size = new System.Drawing.Size(1072, 56);
             this.lblQLSanpham.TabIndex = 25;
             this.lblQLSanpham.Text = "Danh Sách Sản Phẩm";
             this.lblQLSanpham.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -157,19 +156,9 @@
             // 
             this.ptbAnh.Location = new System.Drawing.Point(758, 91);
             this.ptbAnh.Name = "ptbAnh";
-            this.ptbAnh.Size = new System.Drawing.Size(288, 195);
+            this.ptbAnh.Size = new System.Drawing.Size(314, 195);
             this.ptbAnh.TabIndex = 40;
             this.ptbAnh.TabStop = false;
-            // 
-            // btnMo
-            // 
-            this.btnMo.Location = new System.Drawing.Point(679, 93);
-            this.btnMo.Name = "btnMo";
-            this.btnMo.Size = new System.Drawing.Size(58, 23);
-            this.btnMo.TabIndex = 41;
-            this.btnMo.Text = "Mở";
-            this.btnMo.UseVisualStyleBackColor = true;
-            this.btnMo.Click += new System.EventHandler(this.btnMo_Click);
             // 
             // txtDongianban
             // 
@@ -192,13 +181,55 @@
             this.dgvSanpham.Name = "dgvSanpham";
             this.dgvSanpham.RowHeadersWidth = 51;
             this.dgvSanpham.RowTemplate.Height = 24;
-            this.dgvSanpham.Size = new System.Drawing.Size(1046, 225);
+            this.dgvSanpham.Size = new System.Drawing.Size(1072, 225);
             this.dgvSanpham.TabIndex = 44;
             this.dgvSanpham.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvSanpham_CellContentClick);
             // 
+            // sp_id
+            // 
+            this.sp_id.HeaderText = "Mã sản phẩm";
+            this.sp_id.MinimumWidth = 6;
+            this.sp_id.Name = "sp_id";
+            this.sp_id.Width = 125;
+            // 
+            // sp_ten
+            // 
+            this.sp_ten.HeaderText = "Tên sản phẩm";
+            this.sp_ten.MinimumWidth = 6;
+            this.sp_ten.Name = "sp_ten";
+            this.sp_ten.Width = 125;
+            // 
+            // soluongton
+            // 
+            this.soluongton.HeaderText = "Số lượng tồn";
+            this.soluongton.MinimumWidth = 6;
+            this.soluongton.Name = "soluongton";
+            this.soluongton.Width = 125;
+            // 
+            // sp_gia
+            // 
+            this.sp_gia.HeaderText = "Giá ";
+            this.sp_gia.MinimumWidth = 6;
+            this.sp_gia.Name = "sp_gia";
+            this.sp_gia.Width = 125;
+            // 
+            // sp_anh
+            // 
+            this.sp_anh.HeaderText = "Ảnh";
+            this.sp_anh.MinimumWidth = 6;
+            this.sp_anh.Name = "sp_anh";
+            this.sp_anh.Width = 125;
+            // 
+            // dm_id
+            // 
+            this.dm_id.HeaderText = "Danh mục ID";
+            this.dm_id.MinimumWidth = 6;
+            this.dm_id.Name = "dm_id";
+            this.dm_id.Width = 125;
+            // 
             // btnDong
             // 
-            this.btnDong.Location = new System.Drawing.Point(821, 524);
+            this.btnDong.Location = new System.Drawing.Point(964, 523);
             this.btnDong.Name = "btnDong";
             this.btnDong.Size = new System.Drawing.Size(118, 43);
             this.btnDong.TabIndex = 49;
@@ -208,7 +239,7 @@
             // 
             // btnLuu
             // 
-            this.btnLuu.Location = new System.Drawing.Point(708, 525);
+            this.btnLuu.Location = new System.Drawing.Point(802, 523);
             this.btnLuu.Name = "btnLuu";
             this.btnLuu.Size = new System.Drawing.Size(107, 43);
             this.btnLuu.TabIndex = 48;
@@ -255,54 +286,13 @@
             this.txtURLAnh.Size = new System.Drawing.Size(252, 62);
             this.txtURLAnh.TabIndex = 38;
             // 
-            // sp_id
-            // 
-            this.sp_id.HeaderText = "Mã sản phẩm";
-            this.sp_id.MinimumWidth = 6;
-            this.sp_id.Name = "sp_id";
-            this.sp_id.Width = 125;
-            // 
-            // sp_ten
-            // 
-            this.sp_ten.HeaderText = "Tên sản phẩm";
-            this.sp_ten.MinimumWidth = 6;
-            this.sp_ten.Name = "sp_ten";
-            this.sp_ten.Width = 125;
-            // 
-            // soluongton
-            // 
-            this.soluongton.HeaderText = "Số lượng tồn";
-            this.soluongton.MinimumWidth = 6;
-            this.soluongton.Name = "soluongton";
-            this.soluongton.Width = 125;
-            // 
-            // sp_gia
-            // 
-            this.sp_gia.HeaderText = "Giá ";
-            this.sp_gia.MinimumWidth = 6;
-            this.sp_gia.Name = "sp_gia";
-            this.sp_gia.Width = 125;
-            // 
-            // sp_anh
-            // 
-            this.sp_anh.HeaderText = "Ảnh";
-            this.sp_anh.MinimumWidth = 6;
-            this.sp_anh.Name = "sp_anh";
-            this.sp_anh.Width = 125;
-            // 
-            // dm_id
-            // 
-            this.dm_id.HeaderText = "Danh mục ID";
-            this.dm_id.MinimumWidth = 6;
-            this.dm_id.Name = "dm_id";
-            this.dm_id.Width = 125;
-            // 
             // San_Pham
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSize = true;
             this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.ClientSize = new System.Drawing.Size(1296, 679);
+            this.ClientSize = new System.Drawing.Size(1072, 593);
             this.Controls.Add(this.btnDong);
             this.Controls.Add(this.btnLuu);
             this.Controls.Add(this.btnSuaSP);
@@ -310,7 +300,6 @@
             this.Controls.Add(this.btnThemSP);
             this.Controls.Add(this.dgvSanpham);
             this.Controls.Add(this.txtDongianban);
-            this.Controls.Add(this.btnMo);
             this.Controls.Add(this.ptbAnh);
             this.Controls.Add(this.txtDanhMucID);
             this.Controls.Add(this.txtURLAnh);
@@ -346,7 +335,6 @@
         private System.Windows.Forms.TextBox txtSoluong;
         private System.Windows.Forms.TextBox txtDanhMucID;
         private System.Windows.Forms.PictureBox ptbAnh;
-        private System.Windows.Forms.Button btnMo;
         private System.Windows.Forms.TextBox txtDongianban;
         private System.Windows.Forms.DataGridView dgvSanpham;
         private System.Windows.Forms.Button btnDong;
