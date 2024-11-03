@@ -8,7 +8,7 @@ namespace WindowsFormsApp1
 {
     public partial class frmKhachHang : Form
     {
-        private Model1 dbContext;
+        private Model dbContext;
 
         public frmKhachHang()
         {
@@ -16,7 +16,7 @@ namespace WindowsFormsApp1
             this.TopLevel = false;
             this.Dock = DockStyle.Fill;
             this.FormBorderStyle = FormBorderStyle.None;
-            dbContext = new Model1();
+            dbContext = new Model();
             LoadKhachhang();
         }
 

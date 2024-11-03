@@ -54,6 +54,7 @@
             this.btnXoaSP = new System.Windows.Forms.Button();
             this.btnThemSP = new System.Windows.Forms.Button();
             this.txtURLAnh = new System.Windows.Forms.TextBox();
+            this.txtTimSanPham = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.ptbAnh)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvSanpham)).BeginInit();
             this.SuspendLayout();
@@ -282,6 +283,16 @@
             this.txtURLAnh.Size = new System.Drawing.Size(252, 62);
             this.txtURLAnh.TabIndex = 38;
             // 
+            // txtTimSanPham
+            // 
+            this.txtTimSanPham.ForeColor = System.Drawing.SystemColors.ScrollBar;
+            this.txtTimSanPham.Location = new System.Drawing.Point(15, 264);
+            this.txtTimSanPham.Name = "txtTimSanPham";
+            this.txtTimSanPham.Size = new System.Drawing.Size(311, 22);
+            this.txtTimSanPham.TabIndex = 50;
+            this.txtTimSanPham.Text = "Tìm Kiếm";
+            this.txtTimSanPham.TextChanged += new System.EventHandler(this.txtTimSanPham_TextChanged);
+            // 
             // San_Pham
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -289,6 +300,7 @@
             this.AutoSize = true;
             this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.ClientSize = new System.Drawing.Size(1072, 593);
+            this.Controls.Add(this.txtTimSanPham);
             this.Controls.Add(this.btnDong);
             this.Controls.Add(this.btnLuu);
             this.Controls.Add(this.btnSuaSP);
@@ -345,5 +357,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn sp_gia;
         private System.Windows.Forms.DataGridViewTextBoxColumn sp_anh;
         private System.Windows.Forms.DataGridViewTextBoxColumn dm_id;
+        private System.Windows.Forms.TextBox txtTimSanPham;
     }
 }

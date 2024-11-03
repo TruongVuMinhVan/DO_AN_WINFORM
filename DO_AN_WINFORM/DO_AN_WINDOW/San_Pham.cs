@@ -5,6 +5,7 @@ using System.Data;
 using System.Data.Entity.Infrastructure;
 using System.Drawing;
 using System.Linq;
+using System.Runtime.Remoting.Contexts;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -248,6 +249,42 @@ namespace WindowsFormsApp1
         {
 
         }
-    }
+        private void TimKiemSanpham(string keyword)
+        {
+            using (var context = new Model())
+            {
+                var SanphamList = context.SAN_PHAM.Include("LoaiSach").ToList();
 
+                var ketQua = SanphamList.Where(s =>
+                    s.sp_id.Contains(keyword) ||
+                    s.sp_ten.Contains(keyword) ||
+                    s.sp_gioitinh.ToString().Contains(keyword))
+                    .Select(s => new
+                    {
+                        s.sp_id,
+                        s.sp_ten,
+                        s.soluongton,
+                        s.sp_gia,
+                        s.sp_anh,
+                        s.dm_id,
+                    }).ToList();
+
+                // Cập nhật DataGridView với kết quả tìm kiếm
+                dgvSanpham.DataSource = ketQua;
+            }
+        }
+
+        private void txtTimSanPham_TextChanged(object sender, EventArgs e)
+        {
+            try
+            {
+                var keyword = txtTimSanPham.Text.ToLower();
+                TimKiemSanpham(keyword);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Lỗi tìm kiếm: {ex.Message}", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+    }
 }

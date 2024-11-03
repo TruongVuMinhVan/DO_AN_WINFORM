@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "D:\\STUDY\\LT_WINDOW\\DO_AN\\DO_AN_WINFORM\\DO_AN_WINDOW\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{38AAC674-14B6-436D-A230-A6A7331E8268}|Do_an_window.csproj|D:\\STUDY\\LT_WINDOW\\DO_AN\\DO_AN_WINFORM\\DO_AN_WINDOW\\hoa_don.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38AAC674-14B6-436D-A230-A6A7331E8268}|Do_an_window.csproj|solutionrelative:hoa_don.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38AAC674-14B6-436D-A230-A6A7331E8268}|Do_an_window.csproj|D:\\STUDY\\LT_WINDOW\\DO_AN\\DO_AN_WINFORM\\DO_AN_WINDOW\\in_hoa_don.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}",
-      "RelativeMoniker": "D:0:0:{38AAC674-14B6-436D-A230-A6A7331E8268}|Do_an_window.csproj|solutionrelative:in_hoa_don.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{38AAC674-14B6-436D-A230-A6A7331E8268}|Do_an_window.csproj|d:\\study\\lt_window\\do_an\\do_an_winform\\do_an_window\\hoa_don.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{38AAC674-14B6-436D-A230-A6A7331E8268}|Do_an_window.csproj|solutionrelative:hoa_don.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38AAC674-14B6-436D-A230-A6A7331E8268}|Do_an_window.csproj|d:\\study\\lt_window\\do_an\\do_an_winform\\do_an_window\\in_hoa_don.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}",
+      "RelativeMoniker": "D:0:0:{38AAC674-14B6-436D-A230-A6A7331E8268}|Do_an_window.csproj|solutionrelative:in_hoa_don.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,28 +26,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Hoa_Don.cs [Design]",
               "DocumentMoniker": "D:\\STUDY\\LT_WINDOW\\DO_AN\\DO_AN_WINFORM\\DO_AN_WINDOW\\Hoa_Don.cs",
               "RelativeDocumentMoniker": "Hoa_Don.cs",
               "ToolTip": "D:\\STUDY\\LT_WINDOW\\DO_AN\\DO_AN_WINFORM\\DO_AN_WINDOW\\Hoa_Don.cs [Design]",
               "RelativeToolTip": "Hoa_Don.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T03:41:31.562Z",
+              "WhenOpened": "2024-11-03T04:12:18.332Z",
               "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Hoa_Don.cs",
-              "DocumentMoniker": "D:\\STUDY\\LT_WINDOW\\DO_AN\\DO_AN_WINFORM\\DO_AN_WINDOW\\Hoa_Don.cs",
-              "RelativeDocumentMoniker": "Hoa_Don.cs",
-              "ToolTip": "D:\\STUDY\\LT_WINDOW\\DO_AN\\DO_AN_WINFORM\\DO_AN_WINDOW\\Hoa_Don.cs",
-              "RelativeToolTip": "Hoa_Don.cs",
-              "ViewState": "AgIAAHMBAAAAAAAAAAAqwIYBAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T05:38:59.555Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",

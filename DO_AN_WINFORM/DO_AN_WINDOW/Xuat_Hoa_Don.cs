@@ -21,12 +21,12 @@ namespace WindowsFormsApp1
         public Xuat_Hoa_Don(string maHoaDon)
         {
             InitializeComponent();
-            MaHoaDon = maHoaDon; // Gán giá trị mã hóa đơn
+            MaHoaDon = maHoaDon; 
         }
 
         private void Xuat_Hoa_Don_Load(object sender, EventArgs e)
         {
-            // Làm mới và hiển thị ReportViewer
+            
             this.rvInHoaDon.RefreshReport();
         }
 
@@ -38,24 +38,24 @@ namespace WindowsFormsApp1
                 return;
             }
 
-            // Lấy dữ liệu từ View_HoaDonReport theo mã hóa đơn
-            var hoaDonData = db.View_HoaDonReport.Where(hd => hd.MaHoaDon == MaHoaDon).ToList();
+            var hoaDonData = db.View_HoaDonReport
+                               .Where(hd => hd.MaHoaDon == MaHoaDon)
+                               .ToList();
 
             if (hoaDonData.Any())
             {
-                
                 ReportDataSource reportDataSource = new ReportDataSource("DataSet", hoaDonData);
-
                 rvInHoaDon.LocalReport.DataSources.Clear();
                 rvInHoaDon.LocalReport.DataSources.Add(reportDataSource);
+                rvInHoaDon.LocalReport.ReportPath = @"D:\STUDY\LT_WINDOW\DO_AN\DO_AN_WINFORM\DO_AN_WINDOW\In_Hoa_Don.rdlc"; // Thay thế bằng đường dẫn thực tế của file RDLC
+
+                // Làm mới ReportViewer
+                rvInHoaDon.RefreshReport();
             }
             else
             {
                 MessageBox.Show("Không tìm thấy hóa đơn với mã: " + MaHoaDon);
             }
-
-            // Làm mới và hiển thị ReportViewer
-            rvInHoaDon.RefreshReport();
         }
 
     }
